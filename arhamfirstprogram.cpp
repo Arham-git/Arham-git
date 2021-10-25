@@ -1,4 +1,4 @@
-//Word Counter in C++ :
+//Word Counter in C++:
 //first program
 #include <iostream>
 using namespace std;
