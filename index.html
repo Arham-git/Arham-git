@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<title>Page</title>
+<head>
+<link rel="stylesheet" href="styles.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@250&display=swap" rel="stylesheet">
+
+</head>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<body>
+
+<div class="flex-container" id="nav">
+<a href="#"><span>Home</span></a>
+<a href="#Project"> <span>Projects</span></a>
+<a href="#Contact"> <span>Contact</span></a>
+<span id="Mode" style="text-decoration: overline;">Dark Mode</span>
+</div>
+
+
+<div class="card" >
+     <img src="cat.jpg" id="cat" class="bordercat">
+</div>
+<div class="container">
+
+<div class="main border">
+<h1>
+     Hi Everyone.
+     <br>My name is Mohammad Arham Alam.
+     <br>I am 2nd year Electronics Engineering student of ZHCET.
+     <br> <br>The photo is not mine it's what i would have been if i was a cat.
+     <hr>
+</h1>
+<h1 >
+     What is it that i do?</h1>
+     <ul>
+        <li> <h2>I like programming.</h2></li>
+        <li><h2> I do web development.</h2></li>
+        <li><h2>I do problem solving on Leetcode.</h2></li>
+        <li ><h2>I also like playing with Arduino, RasPi. I enjoy domains which combine Electronics and Programming.</h2> 
+        
+        </li>
+     </ul>
+     <h1>
+          Work Experience
+     </h1>
+     <hr>
+          <ul>
+               <li><h2>I am currently a member of AMU Roboclub and exploring various domain borders of Electronics and other career prospects.</h2></li>
+          </ul>
+     
+</div>
+
+
+
+<div class="main border " id="Project">
+     <h1>
+          Education
+     </h1>
+     <hr>
+     <h2> 
+          -> Jawahar Vidya Mandir Shyamali,Ranchi 
+          <br> 10th Grade : 10 CGPA
+          <br> 12th percentile : 83%
+     </h2>
+     <h2>
+          -> ZHCET, AMU Current SPI : 8.8
+     </h2>
+<h1>Projects</h1>
+<hr>
+<ul>
+     <li><h2><a href="#">Twitter Random Quote Generator.</a></h2></li>
+     <li><h2><a href="#">Drum </a></h2></li>
+     <li><h2><a href="#">Previewer</a></h2></li>
+     <li><h2><a href="#">25+5 Clock</a></h2></li>
+     <li><h2><a href="#">Basic Calculator.</a></h2></li>
+     <li><h2><a href="#">Cash Register</a></h2></li>
+</ul>
+<h1>Electronics Projects</h1><hr>
+     <ul>
+          <li><h2>A Traffic Light. Meh..</h2></li>
+     </ul> 
+<h1>Internships</h1><hr>
+<ul>
+     <li><h2>None</h2></li>
+</ul>
+</div>
+
+
+
+<div class="main border">
+<h1>Skills</h1>
+<h2><img src="32px-ISO_C++_Logo.svg.png"> For Problem solving on Leetcode<br><br></h2>
+<h2><img src="32px-Python-logo-notext.svg.png" alt="Python"> For Django, AI/ML, Web Scraping<br><br></h2> 
+<h2><img src="32px-HTML5_logo_and_wordmark.svg.png" alt="html">Web Dev<br><br></h2>
+<h2><img src="32px-Javascript-shield.svg.png" alt="js"> Playing with UI and Backend<br><br></h2>
+<h2><img src="CSS3_logo_and_wordmark.svg.png"> Styling the webpage.<br><br></h2>
+<h2><img src="Arduino_Logo.svg.png" alt="arduino"> For small Electronics project<br>  <br>
+<h2><img src="Logo-tinkercad-wordmark.svg.png" alt=""> For designing electronics and simulation.<br><br></h2>
+
+</div>
+
+
+
+
+<div class="main border " id="Contact" >
+<h1>Contact Me</h1>
+<hr>
+
+     <a href="www.linkedin.com/in/mohammad-arham-alam-ba3983227" target="_blank">
+          <h2>
+               <img src="icons8-linkedin.svg" alt ="linkedin"></h2>
+               <h2>LinkedIn</h2>
+     </a>
+     <br><br>
+     <a href="mdarham11a2017@gmail.com" target="_blank">
+          <h2><img src="icons8-gmail-logo.svg" alt="gmail"></h2><h2>Gmail</h2>
+     </a>
+     <br><br>
+     <hr>
+     <h2>Contact No : +91 7070 185 244</h2>
+     
+
+</div>
+
+</div>
+
+</body>
+ 
+<script>
+var time=0;
+$(document).ready(function() {
+     $('#Mode').click( function(){
+     if(time%2==0){
+          $('body').css('background','linear-gradient(159deg, rgba(52,24,98,1) 0%, rgba(0,0,0,1) 100%)');
+          $('a').css('color','rgb(54, 18, 115)');
+          $('span').css('color','white'); 
+          $('#Mode').text("Light Mode"); 
+     }
+     else {
+          $('body').css('background','linear-gradient(180deg, rgba(223,217,142,1) 0%, rgba(187,219,177,1) 20%, rgba(160,221,199,1) 33%, rgba(160,183,211,1) 48%, rgba(160,196,221,1) 60%, rgba(202,188,226,1) 75%, rgba(221,200,160,1) 93%)');
+          $('a').css('color','rgba(25, 36, 135, 0.836);');
+          $('span').css('color','black');
+          $('#Mode').text("Dark Mode");
+     }
+     time++;
+});
+});
+</script>
+
+</html>

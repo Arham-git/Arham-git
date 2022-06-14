@@ -1,0 +1,111 @@
+body {
+background-size: 100%;
+background: linear-gradient(180deg, rgba(223,217,142,1) 0%, rgba(187,219,177,1) 20%, rgba(160,221,199,1) 33%, rgba(160,183,211,1) 48%, rgba(160,196,221,1) 60%, rgba(202,188,226,1) 75%, rgba(221,200,160,1) 93%);
+font-family: 'Raleway', sans-serif;
+font-weight: 1500;
+}
+
+/* background-image: url('https://images.unsplash.com/photo-1518655048521-f130df041f66?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cG9ydGZvbGlvJTIwYmFja2dyb3VuZHxlbnwwfHwwfHw%3D&w=1000&q=80');
+background-repeat: no-repeat;
+
+background: rgb(174,238,178);
+background: linear-gradient(-120deg, rgba(174,238,178,1) 9%, rgba(231,217,165,1) 100%, rgba(194,163,192,1) 100%);
+
+ */
+#nav {
+     display : flex;
+     flex-flow: wrap;
+     justify-content: flex-start;
+     flex-grow:1;
+     gap: 1.5em;
+     padding: 10px;
+}
+a {  
+     margin-top: 20px;
+     text-decoration:overline;
+     color :rgba(25, 36, 135, 0.836);
+}
+span {
+     color : rgb(0, 0, 0);
+     border-radius: 0.4em;
+     font-size: 1.3em;
+     padding: 1.1em;
+     transition: all 1s;
+     font-weight: 600;
+     text-decoration: overline;
+}
+span:hover{
+     box-shadow: -15px 1px 43px 0px #656565, 5px 0px 10px 0px #736767;
+
+}
+
+
+hr { 
+ height : 1.1px;
+ background-color:rgb(109, 169, 217)
+}
+
+html{
+     scroll-behavior: smooth;
+   }
+
+.main {
+font-weight: 1100;
+height: auto;
+width :46%;
+margin-top: 1em;
+padding:1.3em;
+color:#14226e;
+background-color:azure;
+opacity : 0.6 ;
+box-shadow: -15px 1px 43px 0px #656565, 5px 0px 10px 0px #736767;
+margin-bottom: 3em;
+
+}
+
+.container {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+flex-flow: row wrap;
+justify-content: center;
+gap:1.8em;
+padding: 1.5em;
+flex-shrink: 1;
+}
+
+.lmain {
+float : right
+}
+
+#cat {
+     height: 280px;
+     width : 170px;
+     box-shadow: -15px 1px 43px 0px #656565, 5px 0px 10px 0px #736767;
+
+}
+
+.card {
+     display: flex;
+     justify-content: center;
+}
+
+
+.border {
+     border-radius: 2em;
+}
+
+.bordercat {
+     border-radius : 40%
+}
+
+#icon {
+border: 3px solid white;
+height: 1em; 
+width:1em;
+}
+
+#mail2 {
+color: rgb(0, 0, 0);
+font-family: Sans-serif;
+}
